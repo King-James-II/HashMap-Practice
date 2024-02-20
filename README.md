@@ -1,37 +1,40 @@
 # Hash Maps and Sorting
 
-This Java program showcases the usage of HashMap and TreeMap to store and sort data within a map data structure. It demonstrates the automatic sorting capabilities of TreeMap and the customization options provided by using comparators. Additionally, it utilizes a Binary Search Tree to store and retrieve data from the sorted TreeMap.
+This Java program demonstrates the usage of HashMap and TreeMap to store and sort state-capital pairs. It showcases automatic sorting with TreeMap and allows users to retrieve capitals using a Binary Search Tree (BST).
 
 ## Overview
 
-The program illustrates the storage and sorting of state names and capitals using HashMap and TreeMap, respectively. It begins by populating a HashMap with state-capital pairs and displays the contents of the HashMap to demonstrate unordered storage. Then, it constructs a TreeMap from the HashMap data, showcasing automatic sorting by keys. Finally, it populates a Binary Search Tree (BST) with data from the TreeMap and allows users to retrieve state capitals by entering state names.
+The program:
+- Stores state-capital pairs in a HashMap.
+- Displays unsorted data from the HashMap.
+- Automatically sorts data with TreeMap.
+- Enables capital retrieval by entering state names through a BST.
 
 ## Functionality
 
-- Populates a HashMap with state names and capitals.
-- Displays the contents of the HashMap to show unordered storage.
-- Constructs a TreeMap from the HashMap data for automatic sorting by keys.
-- Populates a Binary Search Tree (BST) with data from the TreeMap.
-- Allows users to enter state names and retrieves corresponding capitals from the BST.
-- Provides an option to quit the program.
+- Populates and displays unsorted state-capital pairs.
+- Sorts pairs alphabetically by state names.
+- Allows users to input state names and retrieves corresponding capitals.
+- Supports easy program termination.
 
-## Technologies Used
+## Technologies
 
-- Java programming language
-- HashMap and TreeMap data structures
+- Java
+- HashMap and TreeMap for data storage and sorting
 - Binary Search Tree (BST) for efficient data retrieval
 
 ## Usage
 
-1. Compile and execute the `StateHashMap.java` file.
-2. Review the displayed contents of the HashMap, TreeMap, and Binary Search Tree.
-3. Enter a state name to retrieve its capital from the Binary Search Tree.
-4. Repeat step 3 as desired or enter 'q' to quit the program.
+1. Compile and run `StateHashMap.java`.
+2. View unsorted state-capital pairs.
+3. Observe sorted pairs.
+4. Enter state names to retrieve capitals.
+5. Terminate the program by entering 'q'.
 
-## Included Files
+## Files
 
-- `StateHashMap.java`: Main Java file containing program logic.
+- `StateHashMap.java`: Main program file.
 
 ## Acknowledgments
 
-This program serves as a practical example of utilizing HashMap, TreeMap, and Binary Search Tree (BST) data structures in Java. It offers insights into storing and sorting data efficiently while providing users with a seamless experience for retrieving information based on keys.
+This program provides a concise example of using HashMap, TreeMap, and Binary Search Tree (BST) in Java to manage and sort data efficiently.
